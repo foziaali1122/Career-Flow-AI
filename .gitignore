@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+**/venv/
+
+# Secrets — never commit real keys
+.env
+.env.*
+!.env.example
+
+# Old runtime data from v1 (the app no longer uses a database)
+*.db
+backend/app/data/chroma/
+
+# Local clean-up folder
+_to_delete/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
